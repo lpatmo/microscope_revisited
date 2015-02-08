@@ -1,6 +1,9 @@
 ###Notes about https://book.discovermeteor.com
 - "A Meteor Method is a server-side function that is called client-side...Collection's insert, update and remove functions are all Methods."
 - "Meteor method callbacks always have two arguments, error and result."
+- "As soon as you start needing to do things that should be outside the user's control (such as timestamping a new post or assigning it to the correct user), it's probably better to use a Method."
+- TODO: Read https://www.discovermeteor.com/blog/meteor-methods-client-side-operations/
+- Oh wow, I finally understand why people use underscore: http://underscorejs.org/#first. Helpful JS functions!
 
 ###Questions
 - What's the difference between Meteor.method and Meteor.publish?
