@@ -4,6 +4,10 @@
 - "As soon as you start needing to do things that should be outside the user's control (such as timestamping a new post or assigning it to the correct user), it's probably better to use a Method."
 - TODO: Read https://www.discovermeteor.com/blog/meteor-methods-client-side-operations/
 - Oh wow, I finally understand why people use underscore: http://underscorejs.org/#first. Helpful JS functions!
+- Local collection: the errors will exist *only in the browser*.
+- Be sure to capitalize the "Collection" in ```Errors = new Mongo.Collection(null);```, haha.
+- Template.templateName.helpers, Template.templateName.events, and Template.templateName.created...
+- ```meteor create --package USERNAME:errors``` creates a package
 
 ###Questions
 - What's the difference between Meteor.method and Meteor.publish?
